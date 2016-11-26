@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars Hero</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1><a>Star wars heroes</a></h1>
+        </div>
+        <div class="main-content">
+            <div class="hero-photo">
+                <div class="block-photo">
+                   <img src="img/yoda1.png">
+                </div>
+                <div class="nav-buttons">
+                    <button class="prev-hero"><a>Prev</a></button>
+                    <button class="next-hero"><a>Next</a></button>
+                </div>
+            </div>
+            <div class="loader hidden"><img src="img/ajax-loader.gif"></div>
+            <div class="main-information">
+                <p>Name: <span class="name"></span></p>
+                <p>Height: <span class="height"></span></p>
+                <p>Mass: <span class="mass"></span></p>
+                <p>Hair color: <span class="hair-color"></span></p>
+                <p>Skin color: <span class="skin-color"></span></p>
+                <p>Eye color: <span class="eye-color"></span></p>
+                <p>Birth color: <span class="birth-year"></span></p>
+                <p>Gender: <span class="gender"></span></p>
+            </div>
+            <div class="films"></div>
+        </div>
+    </div>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
