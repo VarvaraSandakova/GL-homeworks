@@ -1,0 +1,76 @@
+#board {
+    display: block;
+    margin: 140px auto;
+    padding: 2px;
+    border: 5px solid #0E6655;
+    width: 276px;
+    height: 276px;
+    position: relative;
+}
+#board.hidden {
+    visibility: hidden;
+}
+.begin-game{
+    text-align: center;
+}
+.begin-game.hidden {
+    visibility: hidden;
+}
+
+#buttons {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    padding: 2px;
+    width: 100px;
+    height: 40px;
+}
+
+.block {
+    display: block;
+    position: absolute;
+    width: 62px;
+    height: 57px;
+    border: 2px solid #0E6655;
+    margin: 2px;
+    font-size: 48px;
+    text-align: center;
+    color: #000;
+    padding-top: 5px;
+    cursor: pointer;
+    background-color: #73C6B6;
+
+}
+#new{
+    cursor: pointer;
+    background-color: #0E6655;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: 2px solid  #0E6655;
+    font-size: 16px;
+    color: #fff;
+
+}
+.x1y1 { left: 0px; top: 0px;}
+.x2y1 { left: 70px; top: 0px;}
+.x3y1 { left: 140px; top: 0px;}
+.x4y1 { left: 210px; top: 0px;}
+
+.x1y2 { left: 0px; top: 70px;}
+.x2y2 { left: 70px; top: 70px;}
+.x3y2 { left: 140px; top: 70px;}
+.x4y2 { left: 210px; top: 70px;}
+
+.x1y3 { left: 0px; top: 140px;}
+.x2y3 { left: 70px; top: 140px;}
+.x3y3 { left: 140px; top: 140px;}
+.x4y3 { left: 210px; top: 140px;}
+
+.x1y4 { left: 0px; top: 210px;}
+.x2y4 { left: 70px; top: 210px;}
+.x3y4 { left: 140px; top: 210px;}
+.x4y4 { left: 210px; top: 210px;}
